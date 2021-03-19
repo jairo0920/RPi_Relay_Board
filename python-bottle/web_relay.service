@@ -1,0 +1,14 @@
+[Unit]
+Description=Servicio Relay Web
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u /home/pi/scripts/RPi_Relay_Board/python-bottle/main.py
+WorkingDirectory=/home/pi/scripts/RPi_Relay_Board/python-bottle
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

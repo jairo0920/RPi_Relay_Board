@@ -1,0 +1,8 @@
+Relay1=1
+Relay2=1
+Relay3=1
+Relay4=1
+Relay5=1
+Relay6=0
+Relay7=0
+Relay8=0
